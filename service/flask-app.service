@@ -4,8 +4,8 @@ After=network.target
 
 [Service]
 User=ubuntu
-WorkingDirectory=/opt/app/
-ExecStart=/usr/bin/python3 /opt/app/hello.py
+WorkingDirectory=/opt/flask-app/app/
+ExecStart=/usr/bin/python3 /opt/flask-app/app/hello.py
 Restart=always
 
 [Install]
