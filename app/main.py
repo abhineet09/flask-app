@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, Ansible!'
+    return 'Hello, Ansible! This is awesome'
 
 if __name__ == '__main__':
     app.run()
